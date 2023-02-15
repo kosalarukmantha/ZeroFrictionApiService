@@ -1,0 +1,19 @@
+http://localhost:63789/api/Invoice/CreateInvoice
+POST
+
+{ "Description":"kosala",
+ "TotalAmount":5,
+ "Date": "2022-10-16",
+ "InvoiceLinesDtos" : [{"Amount":10, "Quantity":5,"UnitPrice":10, "LineAmount":50 }, {"Amount":11, "Quantity":6,"UnitPrice":5, "LineAmount":60 }],
+ "InvoiceID": 120
+}
+
+
+http://localhost:63789/api/Invoice/EditInvoice
+POST
+{ "Description":"kosala",
+ "TotalAmount":5,
+ "Date": "2022-10-16",
+ "InvoiceLinesDtos" : [{"Amount":10, "Quantity":5,"UnitPrice":10, "LineAmount":50 }, {"Amount":11, "Quantity":6,"UnitPrice":5, "LineAmount":60 }],
+ "InvoiceID": 120
+}
