@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Azure.Cosmos" Version="3.32.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ZeroFriction.DataAccessLayer\ZeroFriction.DataAccessLayer.csproj" />
+    <ProjectReference Include="..\ZeroFriction.Model\ZeroFriction.Model.csproj" />
+  </ItemGroup>
+
+</Project>
